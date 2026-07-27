@@ -1,2 +1,4 @@
 allowBuilds:
-  unrs-resolver: false
+  # Denied: resolver-binding-darwin-arm64 is already installed in the workspace, this is a fallback to build if in case the binaries are
+  # not present, revisit if the tests are failing or if the CI is running in a workspace that does not have the binaries installed.
+  unrs-resolver: false 
